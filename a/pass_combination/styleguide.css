@@ -1,0 +1,178 @@
+:root {
+  --gray: rgba(136, 136, 136, 1);
+  --colorsmain: rgba(61, 172, 220, 1);
+  --colorssub: rgba(54, 208, 247, 1);
+  --colorspoint: rgba(245, 143, 61, 1);
+  --colorsgray-100: rgba(244, 244, 244, 1);
+  --colorsgray-900: rgba(145, 145, 145, 1);
+  --colorsgray-700: rgba(55, 52, 54, 1);
+  --colorsgray-900-dark: rgba(30, 28, 29, 1);
+
+  --typography-headlinebold-font-family: "Pretendard", Helvetica;
+  --typography-headlinebold-font-weight: 700;
+  --typography-headlinebold-font-size: 36px;
+  --typography-headlinebold-letter-spacing: 0px;
+  --typography-headlinebold-line-height: 139.999976158142%;
+  --typography-headlinebold-font-style: normal;
+
+  --typography-headlineregular-font-family: "Pretendard", Helvetica;
+  --typography-headlineregular-font-weight: 400;
+  --typography-headlineregular-font-size: 36px;
+  --typography-headlineregular-letter-spacing: 0px;
+  --typography-headlineregular-line-height: 139.999976158142%;
+  --typography-headlineregular-font-style: normal;
+
+  --typography-titlebold-font-family: "Pretendard", Helvetica;
+  --typography-titlebold-font-weight: 700;
+  --typography-titlebold-font-size: 28px;
+  --typography-titlebold-letter-spacing: 0px;
+  --typography-titlebold-line-height: 139.999976158142%;
+  --typography-titlebold-font-style: normal;
+
+  --typography-titleregular-font-family: "Pretendard", Helvetica;
+  --typography-titleregular-font-weight: 400;
+  --typography-titleregular-font-size: 28px;
+  --typography-titleregular-letter-spacing: 0px;
+  --typography-titleregular-line-height: 139.999976158142%;
+  --typography-titleregular-font-style: normal;
+
+  --typography-subtitlebold-font-family: "Pretendard", Helvetica;
+  --typography-subtitlebold-font-weight: 700;
+  --typography-subtitlebold-font-size: 24px;
+  --typography-subtitlebold-letter-spacing: 0px;
+  --typography-subtitlebold-line-height: 139.999976158142%;
+  --typography-subtitlebold-font-style: normal;
+
+  --typography-subtitleregular-font-family: "Pretendard", Helvetica;
+  --typography-subtitleregular-font-weight: 400;
+  --typography-subtitleregular-font-size: 24px;
+  --typography-subtitleregular-letter-spacing: 0px;
+  --typography-subtitleregular-line-height: 139.999976158142%;
+  --typography-subtitleregular-font-style: normal;
+
+  --typography-infobold-font-family: "Pretendard", Helvetica;
+  --typography-infobold-font-weight: 700;
+  --typography-infobold-font-size: 18px;
+  --typography-infobold-letter-spacing: 0px;
+  --typography-infobold-line-height: 139.999976158142%;
+  --typography-infobold-font-style: normal;
+
+  --typography-inforegular-font-family: "Pretendard", Helvetica;
+  --typography-inforegular-font-weight: 400;
+  --typography-inforegular-font-size: 18px;
+  --typography-inforegular-letter-spacing: 0px;
+  --typography-inforegular-line-height: 139.999976158142%;
+  --typography-inforegular-font-style: normal;
+
+  --typography-textinfo-font-family: "Pretendard", Helvetica;
+  --typography-textinfo-font-weight: 400;
+  --typography-textinfo-font-size: 22px;
+  --typography-textinfo-letter-spacing: -0.44px;
+  --typography-textinfo-line-height: 139.999976158142%;
+  --typography-textinfo-font-style: normal;
+
+  --typography-textline-font-family: "Pretendard", Helvetica;
+  --typography-textline-font-weight: 400;
+  --typography-textline-font-size: 32px;
+  --typography-textline-letter-spacing: 0px;
+  --typography-textline-line-height: 139.999976158142%;
+  --typography-textline-font-style: normal;
+
+  --semantic-button-font-family: "Arial", Helvetica;
+  --semantic-button-font-weight: 700;
+  --semantic-button-font-size: 13.333333969116211px;
+  --semantic-button-letter-spacing: 0px;
+  --semantic-button-line-height: normal;
+  --semantic-button-font-style: normal;
+
+  --semantic-heading-3-font-family: "Pretendard", Helvetica;
+  --semantic-heading-3-font-weight: 700;
+  --semantic-heading-3-font-size: 18.700000762939453px;
+  --semantic-heading-3-letter-spacing: 0px;
+  --semantic-heading-3-line-height: normal;
+  --semantic-heading-3-font-style: normal;
+
+  --semantic-heading-1-font-family: "Pretendard", Helvetica;
+  --semantic-heading-1-font-weight: 700;
+  --semantic-heading-1-font-size: 28px;
+  --semantic-heading-1-letter-spacing: 0px;
+  --semantic-heading-1-line-height: 36.400001525878906px;
+  --semantic-heading-1-font-style: normal;
+
+  --semantic-strong-font-family: "Pretendard", Helvetica;
+  --semantic-strong-font-weight: 700;
+  --semantic-strong-font-size: 14px;
+  --semantic-strong-letter-spacing: 0px;
+  --semantic-strong-line-height: normal;
+  --semantic-strong-font-style: normal;
+
+  --pretendard-black-font-family: "Pretendard", Helvetica;
+  --pretendard-black-font-weight: 900;
+  --pretendard-black-font-size: 16px;
+  --pretendard-black-letter-spacing: 0px;
+  --pretendard-black-line-height: normal;
+  --pretendard-black-font-style: normal;
+
+  --pretendard-regular-font-family: "Pretendard", Helvetica;
+  --pretendard-regular-font-weight: 400;
+  --pretendard-regular-font-size: 14px;
+  --pretendard-regular-letter-spacing: 0px;
+  --pretendard-regular-line-height: normal;
+  --pretendard-regular-font-style: normal;
+
+  --pretendard-bold-font-family: "Pretendard", Helvetica;
+  --pretendard-bold-font-weight: 700;
+  --pretendard-bold-font-size: 34px;
+  --pretendard-bold-letter-spacing: -1px;
+  --pretendard-bold-line-height: 68%;
+  --pretendard-bold-font-style: normal;
+
+  --pretendard-semibold-font-family: "Pretendard", Helvetica;
+  --pretendard-semibold-font-weight: 600;
+  --pretendard-semibold-font-size: 18px;
+  --pretendard-semibold-letter-spacing: 0px;
+  --pretendard-semibold-line-height: normal;
+  --pretendard-semibold-font-style: normal;
+
+  --inter-bold-font-family: "Inter", Helvetica;
+  --inter-bold-font-weight: 700;
+  --inter-bold-font-size: 32px;
+  --inter-bold-letter-spacing: 0px;
+  --inter-bold-line-height: normal;
+  --inter-bold-font-style: normal;
+
+  --inter-regular-font-family: "Inter", Helvetica;
+  --inter-regular-font-weight: 400;
+  --inter-regular-font-size: 16px;
+  --inter-regular-letter-spacing: 0px;
+  --inter-regular-line-height: normal;
+  --inter-regular-font-style: normal;
+
+  --inter-semibold-font-family: "Inter", Helvetica;
+  --inter-semibold-font-weight: 600;
+  --inter-semibold-font-size: 16px;
+  --inter-semibold-letter-spacing: 0px;
+  --inter-semibold-line-height: normal;
+  --inter-semibold-font-style: normal;
+
+  --arial-regular-font-family: "Arial", Helvetica;
+  --arial-regular-font-weight: 400;
+  --arial-regular-font-size: 14px;
+  --arial-regular-letter-spacing: 0px;
+  --arial-regular-line-height: normal;
+  --arial-regular-font-style: normal;
+
+  --arial-bold-font-family: "Arial", Helvetica;
+  --arial-bold-font-weight: 700;
+  --arial-bold-font-size: 16px;
+  --arial-bold-letter-spacing: 0px;
+  --arial-bold-line-height: normal;
+  --arial-bold-font-style: normal;
+
+  --pretendard-extrabold-font-family: "Pretendard", Helvetica;
+  --pretendard-extrabold-font-weight: 800;
+  --pretendard-extrabold-font-size: 17px;
+  --pretendard-extrabold-letter-spacing: 0px;
+  --pretendard-extrabold-line-height: normal;
+  --pretendard-extrabold-font-style: normal;
+}

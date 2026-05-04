@@ -1,0 +1,510 @@
+.passhub {
+  background-color: #000000;
+  width: 100%;
+  min-width: 384px;
+  min-height: 796px;
+  position: relative;
+}
+
+.passhub .frame {
+  position: absolute;
+  top: 58px;
+  left: 212px;
+  width: 104px;
+  height: 60px;
+}
+
+.passhub .image {
+  position: absolute;
+  top: 13px;
+  left: 28px;
+  width: 77px;
+  height: 46px;
+  aspect-ratio: 1.9;
+}
+
+.passhub .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99px;
+  height: 60px;
+  aspect-ratio: 1.9;
+}
+
+.passhub .div {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 729px;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 67px;
+  left: 0;
+}
+
+.passhub .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.passhub .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.24px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22.4px;
+  letter-spacing: 0;
+  line-height: 31.3px;
+}
+
+.passhub .p {
+  position: relative;
+  align-self: stretch;
+  margin-top: -4.97px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 400;
+  color: #3dacdc;
+  font-size: 22.4px;
+  letter-spacing: 0;
+  line-height: 31.3px;
+}
+
+.passhub .span {
+  font-weight: 700;
+}
+
+.passhub .text-wrapper-2 {
+  font-family: "Pretendard-Regular", Helvetica;
+}
+
+.passhub .text-wrapper-3 {
+  position: relative;
+  width: 315.56px;
+  margin-top: -4.97px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.passhub .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 320.59px;
+  align-items: flex-end;
+  gap: 19px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.passhub .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.passhub .frame-5 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.passhub .div-2 {
+  position: relative;
+  width: 155.29px;
+  height: 140.39px;
+  border-radius: 25px 0px 25px 0px;
+  border: 1px solid;
+  border-color: #36d0f7;
+}
+
+.passhub .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 83px;
+  height: 31px;
+  background-color: #3dacdc;
+  border-radius: 24.85px 0px 24.85px 0px;
+  box-shadow: 1.24px 3.73px 4.97px #36d0f76b;
+}
+
+.passhub .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 82px;
+  align-items: center;
+  position: absolute;
+  top: 41px;
+  left: 37px;
+}
+
+.passhub .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.24px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16.2px;
+  text-align: center;
+  letter-spacing: -0.48px;
+  line-height: 22.6px;
+}
+
+.passhub .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #3dacdc;
+  font-size: 12.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 17.4px;
+}
+
+.passhub .image-2 {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  width: 137px;
+  height: 60px;
+  aspect-ratio: 2.3;
+}
+
+.passhub .text-wrapper-6 {
+  position: absolute;
+  top: 5px;
+  left: 17px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16.2px;
+  letter-spacing: -0.32px;
+  line-height: 22.6px;
+  white-space: nowrap;
+}
+
+.passhub .arrow-btn {
+  left: 116px;
+  position: absolute;
+  top: 7px;
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1;
+}
+
+.passhub .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 89px;
+  align-items: center;
+  position: absolute;
+  top: 41px;
+  left: 34px;
+}
+
+.passhub .image-3 {
+  position: absolute;
+  top: 80px;
+  left: 1px;
+  width: 135px;
+  height: 59px;
+  aspect-ratio: 2.31;
+}
+
+.passhub .arrow-btn-2 {
+  left: 114px;
+  position: absolute;
+  top: 7px;
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1;
+}
+
+.passhub .frame-8 {
+  display: flex;
+  flex-direction: column;
+  width: 99px;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  left: 29px;
+}
+
+.passhub .image-4 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 138px;
+  height: 60px;
+  aspect-ratio: 2.31;
+}
+
+.passhub .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 73px;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  left: 41px;
+}
+
+.passhub .image-5 {
+  position: absolute;
+  top: 80px;
+  left: 1px;
+  width: 138px;
+  height: 60px;
+  aspect-ratio: 2.31;
+}
+
+.passhub .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 68px;
+  align-items: flex-start;
+  position: absolute;
+  top: 29px;
+  left: 43px;
+}
+
+.passhub .image-6 {
+  position: absolute;
+  top: 80px;
+  left: 1px;
+  width: 118px;
+  height: 60px;
+  aspect-ratio: 1.98;
+}
+
+.passhub .frame-11 {
+  display: flex;
+  flex-direction: column;
+  width: 86px;
+  align-items: center;
+  position: absolute;
+  top: 29px;
+  left: 35px;
+}
+
+.passhub .image-7 {
+  position: absolute;
+  top: 77px;
+  left: 1px;
+  width: 138px;
+  height: 62px;
+  aspect-ratio: 2.22;
+}
+
+.passhub .nowusepass-btn {
+  display: flex;
+  height: 44.72px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.24px 7.45px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 12.42px;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 208, 247, 1) 0%,
+    rgba(255, 143, 61, 1) 100%
+  );
+}
+
+.passhub .text-wrapper-7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14.9px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 20.9px;
+  white-space: nowrap;
+}
+
+.passhub .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 97px;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.passhub .frame-12 {
+  display: flex;
+  flex-direction: column;
+  width: 383px;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.passhub .line {
+  position: relative;
+  width: 384px;
+  height: 1px;
+  margin-top: -0.97px;
+  margin-left: -0.5px;
+  margin-right: -0.5px;
+}
+
+.passhub .buttonitems {
+  position: relative;
+  width: 343.38px;
+  height: 63.58px;
+}
+
+.passhub .home-btn {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  align-items: center;
+  gap: 9px;
+  position: absolute;
+  top: 5px;
+  left: 1px;
+}
+
+.passhub .img-2 {
+  position: relative;
+  width: 25.15px;
+  height: 25.15px;
+  aspect-ratio: 1;
+}
+
+.passhub .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #919191;
+  font-size: 17.4px;
+  letter-spacing: 0;
+  line-height: 24.4px;
+  white-space: nowrap;
+}
+
+.passhub .continue-btn {
+  display: flex;
+  flex-direction: column;
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 3px;
+  left: 59px;
+}
+
+.passhub .play-circle {
+  position: relative;
+  width: 28.34px;
+  height: 28.34px;
+}
+
+.passhub .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #919191;
+  font-size: 17.4px;
+  letter-spacing: 0;
+  line-height: 24.4px;
+}
+
+.passhub .open-btn {
+  display: flex;
+  flex-direction: column;
+  width: 61px;
+  align-items: center;
+  gap: 9px;
+  position: absolute;
+  top: 5px;
+  left: 136px;
+}
+
+.passhub .search-btn {
+  display: flex;
+  flex-direction: column;
+  width: 31px;
+  align-items: center;
+  gap: 9px;
+  position: absolute;
+  top: 5px;
+  left: 225px;
+}
+
+.passhub .profile-btn {
+  display: flex;
+  flex-direction: column;
+  width: 46px;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 0;
+  left: 297px;
+}
+
+.passhub .circle {
+  position: relative;
+  width: 34.82px;
+  height: 34.82px;
+  aspect-ratio: 1;
+}
+
+/* CENTER_VIEWPORT_FIX_START */
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  background: #000000;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+body > *:first-child {
+  width: 384px !important;
+  min-width: 384px !important;
+  max-width: 384px !important;
+  flex: 0 0 384px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* CENTER_VIEWPORT_FIX_END */

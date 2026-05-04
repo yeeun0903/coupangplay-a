@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="globals.css">
+<link rel="stylesheet" href="styleguide.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="buyinfo" data-model-id="206:1389"><div class="element" ><div class="frame" ><img class="back-btn" src="https://c.animaapp.com/Ps3kegpx/img/back-btn.svg" />
+<div class="x-btn" ><div class="text-wrapper" >✕</div></div></div>
+<div class="frame-wrapper" ><div class="div" ><div class="text-wrapper-2" >주문번호</div>
+<div class="text-wrapper-3" >CP-2026-50701</div>
+<div class="text-wrapper-4" >결제일시</div>
+<div class="text-wrapper-5" >2026.05.07</div>
+<div class="text-wrapper-6" >결제수단</div>
+<div class="text-wrapper-7" >기업은행 8001</div>
+<div class="text-wrapper-8" >다음결제</div>
+<div class="element-2" > 자동결제 | 2026.06.07</div>
+<img class="line" src="https://c.animaapp.com/Ps3kegpx/img/line-19.svg" />
+<img class="img" src="https://c.animaapp.com/Ps3kegpx/img/line-19.svg" />
+<img class="line-2" src="https://c.animaapp.com/Ps3kegpx/img/line-19.svg" /></div></div>
+<div class="frame-2" ><img class="line-3" src="https://c.animaapp.com/Ps3kegpx/img/line-2.svg" />
+<div class="botton" ><div class="frame-3" ><img class="img-2" src="https://c.animaapp.com/Ps3kegpx/img/home.svg" />
+<div class="text-wrapper-9" >홈</div></div>
+<div class="frame-4" ><img class="play-circle" src="https://c.animaapp.com/Ps3kegpx/img/play-circle.svg" />
+<div class="text-wrapper-10" >이어보기</div></div>
+<div class="frame-5" ><img class="img-2" src="https://c.animaapp.com/Ps3kegpx/img/copy.svg" />
+<div class="text-wrapper-10" >공개예정</div></div>
+<div class="frame-6" ><img class="img-2" src="https://c.animaapp.com/Ps3kegpx/img/search.svg" />
+<div class="text-wrapper-10" >검색</div></div>
+<div class="frame-7" ><img class="circle" src="https://c.animaapp.com/Ps3kegpx/img/circle.svg" />
+<div class="text-wrapper-10" >프로필</div></div></div></div></div>
+<div class="div-wrapper" ><div class="frame-8" ><img class="frame-9" src="https://c.animaapp.com/Ps3kegpx/img/frame-162.svg" />
+<div class="frame-10" ><div class="frame-11" ><div class="text-wrapper-11" >올패스</div>
+<div class="text-wrapper-12" >모든 콘텐츠 이용</div></div>
+<div class="frame-12" ><div class="text-wrapper-13" >22,400원</div>
+<div class="text-wrapper-14" >월간 이용권</div></div></div></div></div>
+<div class="frame-13" ><div class="frame-14" ><div class="text-wrapper-15" >확인</div></div>
+<div class="frame-15" ><div class="text-wrapper-16" >바로 콘텐츠 보러가기</div></div></div>
+<div class="frame-16" ><img class="mdi-tag-check" src="https://c.animaapp.com/Ps3kegpx/img/mdi-tag-check.png" />
+<div class="frame-17" ><div class="text-wrapper-17" >올패스 결제가 완료되었습니다!</div>
+<div class="text-wrapper-18" >이용해 주셔서 감사합니다</div></div></div></div>
+
+
+<script>
+/* AB_NAV_INJECT_START */
+(function () {
+  const HOME_SCREEN = "main_nopass";
+  const CURRENT_SCREEN = "buyresult";
+  const go = (screen) => { window.location.href = `../${screen}/index.html`; };
+
+  const bind = (selector, screen) => {
+    document.querySelectorAll(selector).forEach((el) => {
+      el.style.cursor = "pointer";
+      el.setAttribute("role", "button");
+      el.addEventListener("click", function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        go(screen);
+      });
+    });
+  };
+
+  const bindText = (text, screen) => {
+    const target = (text || "").replace(/\s+/g, "");
+    document.querySelectorAll("button, a, div, p, span").forEach((el) => {
+      const value = (el.textContent || "").replace(/\s+/g, "");
+      if (value.includes(target) && value.length <= target.length + 18) {
+        el.style.cursor = "pointer";
+        el.setAttribute("role", "button");
+        el.addEventListener("click", function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          go(screen);
+        });
+      }
+    });
+  };
+
+  const block = (selector) => {
+    document.querySelectorAll(selector).forEach((el) => {
+      el.style.cursor = "default";
+      el.removeAttribute("role");
+      el.addEventListener("click", function(e) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }, true);
+    });
+  };
+
+  // 하단 네비게이션은 홈/프로필만 활성화합니다.
+  // 단, passhub/passdetail/profile 내부의 frame-4~6 같은 디자인 요소는 건드리지 않습니다.
+  block(".continue-btn, .open-btn, .search-btn");
+  if (CURRENT_SCREEN === "buyresult") {
+    block(".frame-4, .frame-5, .frame-6");
+    bind(".frame-3", HOME_SCREEN);
+    bind(".frame-7", "profile");
+    bind(".back-btn", "pass_combination");
+    bind(".x-btn", HOME_SCREEN);
+  } else {
+    bind(".home-btn", HOME_SCREEN);
+    bind(".profile-btn", "profile");
+  }
+
+  if (CURRENT_SCREEN === "popup") {
+    bind(".x-btn", HOME_SCREEN);
+    bind(".subscribe-btn", "passhub");
+    bindText("지금 패스 구독하기", "passhub");
+  }
+
+  if (CURRENT_SCREEN === "mainyespass") {
+    bind(".pass-btn", "passhub");
+    bindText("쿠팡패스", "passhub");
+  }
+
+  if (CURRENT_SCREEN === "profile") {
+    // 더블패스 passnowuse 프레임/내 패스 카드 클릭 시 패스 허브로 이동
+    bind(".passnowuse, .passnowuse-btn, .pass-now-use, .pass-nowuse, .nowusepass, .nowusepass-profile, .frame-3", "passhub");
+  }
+
+  if (CURRENT_SCREEN === "passhub") {
+    // 패스 허브의 6개 > 버튼 전부 passdetail로 이동
+    bind(".arrow-btn, .arrow-btn-2, .arrow-btn-3, .arrow-btn-4, .arrow-btn-5", "passdetail");
+    bind(".nowusepass-btn", "pass_combination");
+    bindText("지금 바로 패스 이용하기", "pass_combination");
+  }
+
+  if (CURRENT_SCREEN === "passdetail") {
+    bind(".arrow-left, .back-btn", "passhub");
+    bind(".container, .x-btn", HOME_SCREEN);
+    bindText("✕", HOME_SCREEN);
+    bind(".subscribe-btn", "pass_combination");
+    bindText("구독하러가기", "pass_combination");
+  }
+
+  // pass_combination의 선택/가격 변동 로직은 건드리지 않고, 시청하기 버튼만 연결
+  if (CURRENT_SCREEN === "pass_combination") {
+    bind(".header-topbar .view, .header-topbar .div-wrapper, .arrow-left, .back-btn", "passhub");
+    bind("#watchButton", "buyresult");
+  }
+
+  bindText("지금 바로 시청하기", "buyresult");
+})();
+/* AB_NAV_INJECT_END */
+</script>
+
+</body>
+</html>

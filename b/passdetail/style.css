@@ -1,0 +1,842 @@
+.pass-detail {
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  min-width: 384px;
+  min-height: 834.87px;
+  position: relative;
+}
+
+.pass-detail .frame {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 192px);
+  width: 384px;
+  height: 835px;
+}
+
+.pass-detail .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 384px;
+  height: 375px;
+}
+
+.pass-detail .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  left: calc(50.00% - 148px);
+}
+
+.pass-detail .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  background: linear-gradient(
+    358deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(61, 172, 220, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  opacity: 0.9;
+  font-family: "Pretendard-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 73.1px;
+  text-align: center;
+  letter-spacing: -2.93px;
+  line-height: 102.4px;
+  white-space: nowrap;
+}
+
+.pass-detail .div {
+  display: flex;
+  width: 370px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 54px;
+  left: calc(50.00% - 185px);
+}
+
+.pass-detail .arrow-left {
+  position: relative;
+  width: 31.14px;
+  height: 31.14px;
+}
+
+.pass-detail .container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 1.3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pass-detail .text-wrapper-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.3px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 20.8px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pass-detail .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 552px;
+  align-items: center;
+  gap: 19px;
+  position: absolute;
+  top: 283px;
+  left: calc(50.00% - 192px);
+}
+
+.pass-detail .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 369.48px;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pass-detail .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pass-detail .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 311.53px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pass-detail .subscribe-btn {
+  display: flex;
+  width: 197.75px;
+  align-items: center;
+  justify-content: center;
+  gap: 21.67px;
+  padding: 6.77px 27.09px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12.19px;
+  box-shadow: 0px 0px 11.78px #00000080;
+  background: linear-gradient(
+    132deg,
+    rgba(255, 143, 61, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.pass-detail .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.35px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: -0.76px;
+  line-height: 26.5px;
+  white-space: nowrap;
+}
+
+.pass-detail .vector {
+  position: relative;
+  width: 10.84px;
+  height: 18.96px;
+}
+
+.pass-detail .frame-6 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 154.34px;
+}
+
+.pass-detail .EPL-NBA-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: -10px;
+  left: -5px;
+}
+
+.pass-detail .EPL-NBA {
+  position: relative;
+  width: 301px;
+  height: 54px;
+  margin-top: -1px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: -0.76px;
+  line-height: 26.5px;
+}
+
+.pass-detail .span {
+  color: #ffffff;
+  letter-spacing: -0.14px;
+}
+
+.pass-detail .text-wrapper-4 {
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #36d0f7;
+  letter-spacing: -0.14px;
+}
+
+.pass-detail .text-wrapper-5 {
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.14px;
+}
+
+.pass-detail .frame-7 {
+  display: flex;
+  width: 100%;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 5.42px;
+  position: absolute;
+  top: 73px;
+  left: 0;
+}
+
+.pass-detail .frame-8 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.06px;
+  padding: 2.71px 6.77px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -0.58px;
+  background-color: #000000;
+  border-radius: 6.77px;
+  border: 0.68px solid;
+  border-color: #f4f4f4;
+}
+
+.pass-detail .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.68px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13.5px;
+  letter-spacing: -0.54px;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.pass-detail .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.06px;
+  padding: 2.71px 6.77px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 6.77px;
+  border: 0.68px solid;
+  border-color: #f4f4f4;
+}
+
+.pass-detail .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.06px;
+  padding: 2.71px 6.77px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 6.77px;
+  border: 0.68px solid;
+  border-color: #f4f4f4;
+}
+
+.pass-detail .frame-11 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.06px;
+  padding: 2.71px 6.77px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -0.58px;
+  background-color: #000000;
+  border-radius: 6.77px;
+  border: 1.35px solid;
+  border-color: #f4f4f4;
+}
+
+.pass-detail .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.35px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13.5px;
+  letter-spacing: -0.54px;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.pass-detail .frame-12 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21.67px;
+  position: absolute;
+  top: 116px;
+  left: 8px;
+}
+
+.pass-detail .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.35px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13.5px;
+  letter-spacing: -0.54px;
+  line-height: 19px;
+}
+
+.pass-detail .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 75.22px;
+}
+
+.pass-detail .frame-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.87px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pass-detail .frame-14 {
+  display: flex;
+  height: 24.9px;
+  align-items: center;
+  gap: 7.47px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.pass-detail .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12.4px;
+  letter-spacing: 0;
+  line-height: 17.4px;
+  white-space: nowrap;
+}
+
+.pass-detail .vector-2 {
+  position: relative;
+  width: 4.98px;
+  height: 8.71px;
+  aspect-ratio: 0.5;
+}
+
+.pass-detail .frame-15 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pass-detail .frame-16 {
+  position: relative;
+  width: 180.51px;
+  height: 101.54px;
+  background-image: url(https://c.animaapp.com/ut36Y69T/img/vector-6.svg);
+  background-size: 100% 100%;
+}
+
+.pass-detail .frame-17 {
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  align-items: flex-start;
+  gap: 3px;
+  position: absolute;
+  top: calc(50.00% - 44px);
+  left: calc(50.00% - 83px);
+}
+
+.pass-detail .frame-18 {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pass-detail .frame-19 {
+  position: relative;
+  width: 18.05px;
+  height: 8.12px;
+  background-image: url(https://c.animaapp.com/ut36Y69T/img/vector-7.svg);
+  background-size: 100% 100%;
+}
+
+.pass-detail .text-wrapper-9 {
+  position: absolute;
+  width: 38.78%;
+  height: 49.24%;
+  top: 22.22%;
+  left: 31.25%;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 3.6px;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pass-detail .frame-20 {
+  position: relative;
+  width: 27.08px;
+  height: 8.12px;
+  background-image: url(https://c.animaapp.com/ut36Y69T/img/vector-8.svg);
+  background-size: 100% 100%;
+}
+
+.pass-detail .text-wrapper-10 {
+  position: absolute;
+  width: 62.79%;
+  height: 49.24%;
+  top: 22.22%;
+  left: 19.17%;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 3.6px;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pass-detail .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 5.4px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pass-detail .image {
+  height: 78px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.pass-detail .frame-21 {
+  position: absolute;
+  top: 22px;
+  left: 71px;
+  width: 38px;
+  height: 40px;
+}
+
+.pass-detail .frame-22 {
+  position: absolute;
+  top: 79px;
+  left: 143px;
+  width: 18px;
+  height: 8px;
+  display: flex;
+  background-image: url(https://c.animaapp.com/ut36Y69T/img/vector-9.svg);
+  background-size: 100% 100%;
+}
+
+.pass-detail .text-wrapper-12 {
+  margin-top: 2.9px;
+  width: 9px;
+  height: 4px;
+  margin-left: 4px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 3.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pass-detail .frame-wrapper {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 30px;
+  position: absolute;
+  top: 70px;
+  left: 16px;
+}
+
+.pass-detail .frame-23 {
+  display: flex;
+  flex-direction: column;
+  width: 101px;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+}
+
+.pass-detail .text-wrapper-13 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 6.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pass-detail .text-wrapper-14 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #a0aec0;
+  font-size: 4.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.pass-detail .frame-24 {
+  display: flex;
+  flex-direction: column;
+  width: 164px;
+  align-items: flex-start;
+  gap: 2px;
+  position: absolute;
+  top: calc(50.00% - 44px);
+  left: calc(50.00% - 82px);
+}
+
+.pass-detail .image-2 {
+  height: 77.42px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.pass-detail .frame-25 {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 70px;
+  left: 16px;
+}
+
+.pass-detail .frame-26 {
+  display: flex;
+  flex-direction: column;
+  width: 87px;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+}
+
+.pass-detail .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 6.3px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pass-detail .frame-27 {
+  position: relative;
+  width: 18.05px;
+  height: 8.12px;
+  background-image: url(https://c.animaapp.com/ut36Y69T/img/vector-9.svg);
+  background-size: 100% 100%;
+}
+
+.pass-detail .text-wrapper-16 {
+  position: absolute;
+  width: 55.40%;
+  height: 49.24%;
+  top: 21.27%;
+  left: 23.93%;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 3.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.pass-detail .frame-28 {
+  display: flex;
+  flex-direction: column;
+  height: 97px;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  margin-bottom: -0.4px;
+}
+
+.pass-detail .frame-29 {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 97px;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+}
+
+.pass-detail .line {
+  position: relative;
+  width: 384px;
+  height: 1px;
+  margin-top: -0.97px;
+}
+
+.pass-detail .buttonitems {
+  position: relative;
+  width: 343.38px;
+  height: 63.58px;
+}
+
+.pass-detail .home-btn {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  align-items: center;
+  gap: 9px;
+  position: absolute;
+  top: 5px;
+  left: 1px;
+}
+
+.pass-detail .img-2 {
+  position: relative;
+  width: 25.15px;
+  height: 25.15px;
+  aspect-ratio: 1;
+}
+
+.pass-detail .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #919191;
+  font-size: 17.4px;
+  letter-spacing: 0;
+  line-height: 24.4px;
+  white-space: nowrap;
+}
+
+.pass-detail .continue-btn {
+  display: flex;
+  flex-direction: column;
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 3px;
+  left: 59px;
+}
+
+.pass-detail .play-circle {
+  position: relative;
+  width: 28.34px;
+  height: 28.34px;
+}
+
+.pass-detail .text-wrapper-18 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #919191;
+  font-size: 17.4px;
+  letter-spacing: 0;
+  line-height: 24.4px;
+}
+
+.pass-detail .open-btn {
+  display: flex;
+  flex-direction: column;
+  width: 61px;
+  align-items: center;
+  gap: 9px;
+  position: absolute;
+  top: 5px;
+  left: 136px;
+}
+
+.pass-detail .search-btn {
+  display: flex;
+  flex-direction: column;
+  width: 31px;
+  align-items: center;
+  gap: 9px;
+  position: absolute;
+  top: 5px;
+  left: 225px;
+}
+
+.pass-detail .profile-btn {
+  display: flex;
+  flex-direction: column;
+  width: 46px;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 0;
+  left: 297px;
+}
+
+.pass-detail .circle {
+  position: relative;
+  width: 34.82px;
+  height: 34.82px;
+  aspect-ratio: 1;
+}
+
+/* 직접 수정: 올인원 패스 한 줄 + 스포츠 설명 중앙 정렬 */
+.pass-detail .EPL-NBA-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  left: 0 !important;
+  padding: 10px 0 !important;
+  box-sizing: border-box !important;
+}
+
+.pass-detail .EPL-NBA {
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 18px !important;
+  letter-spacing: -0.72px !important;
+  line-height: 26.5px !important;
+  word-break: keep-all !important;
+}
+
+.pass-detail .EPL-NBA .second-line {
+  display: inline-block !important;
+  white-space: nowrap !important;
+  font-size: 18px !important;
+}
+
+.pass-detail .frame-12 {
+  display: flex !important;
+  width: 100% !important;
+  left: 0 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 34px !important;
+}
+
+.pass-detail .p {
+  width: 145px !important;
+  text-align: center !important;
+}
+
+/* CENTER_VIEWPORT_FIX_START */
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  background: #000000;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+body > *:first-child {
+  width: 384px !important;
+  min-width: 384px !important;
+  max-width: 384px !important;
+  flex: 0 0 384px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* CENTER_VIEWPORT_FIX_END */
